@@ -1,0 +1,18 @@
+"fnEmailListUsesFeature.sql -> mssql_source/python_backend/call_fnemainusers.py, mssql_source/python_backend/list_of_procedures.py"
+fnGetCustomerAttributeBannerContentBlockIdentifier.sql -> mssql_source/python_backend/list_of_procedures.py
+fnGetMailingLibraComponents.sql -> mssql_source/python_backend/list_of_procedures.py
+fnGetTargetLibraComponents.sql -> No Dependencies
+"fnIsTestActive.sql -> mssql_source/python_backend/call_fnemainusers.py, mssql_source/python_backend/list_of_procedures.py, mssql_source/python_backend/procedure_call.py"
+fnLogToGraphite.sql -> No Dependencies
+fnWeighSeedAndSalt.sql -> No Dependencies
+call_fnemainusers.py -> Couldn't find dependencies
+list_of_procedures.py -> Couldn't find dependencies
+login.py -> Couldn't find dependencies
+procedure_call.py -> Couldn't find dependencies
+spCancelCleanup.sql -> No Dependencies
+"spCreateExternalUniqueID.sql -> mssql_source/stored_procedures/spLogError.sql, mssql_source/stored_procedures/spLogRunTimeStartProcedure.sql"
+spLockAsyncListBuild.sql -> No Dependencies
+spLogError.sql -> No Dependencies
+spLogRunTimeFinishProcedure.sql -> mssql_source/stored_procedures/spCancelCleanup.sql
+spLogRunTimeStartProcedure.sql -> mssql_source/stored_procedures/spCancelCleanup.sql
+spSetCustomerAttributeStoreDynamicBannerData.sql -> No Dependencies
