@@ -1,0 +1,48 @@
+23/06/2023 11:56:10.771169,mssql_source/functions/fnEmailListUsesFeature.sql,Success
+23/06/2023 11:56:15.684890,mssql_source/functions/fnGetCustomerAttributeBannerContentBlockIdentifier.sql,Success
+23/06/2023 11:56:23.127536,mssql_source/functions/fnGetMailingLibraComponents.sql,Success
+23/06/2023 11:56:25.760232,mssql_source/functions/fnGetTargetLibraComponents.sql,"ERROR:  syntax error at or near ""END""
+LINE 36: END;
+         ^
+"
+23/06/2023 11:56:28.605977,mssql_source/functions/fnIsTestActive.sql,"ERROR:  syntax error at or near ""1""
+LINE 14:                  TOP 1 1
+                              ^
+"
+23/06/2023 11:56:30.689237,mssql_source/functions/fnLogToGraphite.sql,"ERROR:  syntax error at or near "".""
+LINE 16:             RETURN call graphite.graphite.logtographite(_dat...
+                                         ^
+"
+23/06/2023 11:56:32.505355,mssql_source/functions/fnWeighSeedAndSalt.sql,Success
+23/06/2023 11:56:33.809497,mssql_source/python_backend/call_fnemainusers.py,"ERROR:  syntax error at or near ""```""
+LINE 1: ```
+        ^
+"
+23/06/2023 11:56:35.333969,mssql_source/python_backend/list_of_procedures.py,"ERROR:  syntax error at or near ""def""
+LINE 1: def get_all_procs():
+        ^
+"
+23/06/2023 11:56:36.492000,mssql_source/python_backend/login.py,"ERROR:  syntax error at or near ""```""
+LINE 1: ```
+        ^
+"
+23/06/2023 11:56:37.861891,mssql_source/python_backend/procedure_call.py,"ERROR:  syntax error at or near ""```""
+LINE 1: ```
+        ^
+"
+23/06/2023 11:56:40.670690,mssql_source/stored_procedures/spCancelCleanup.sql,Success
+23/06/2023 11:56:42.940944,mssql_source/stored_procedures/spCreateExternalUniqueID.sql,Success
+23/06/2023 11:56:45.717292,mssql_source/stored_procedures/spLockAsyncListBuild.sql,"ERROR:  RETURN cannot have a parameter in function with OUT parameters
+LINE 28:             RETURN _lockid;
+                            ^
+"
+23/06/2023 11:56:50.089508,mssql_source/stored_procedures/spLogError.sql,Success
+23/06/2023 11:56:52.056436,mssql_source/stored_procedures/spLogRunTimeFinishProcedure.sql,"ERROR:  ""_procedurename"" is not a known variable
+LINE 10:         INTO _procedurename 
+                      ^
+"
+23/06/2023 11:56:55.457072,mssql_source/stored_procedures/spLogRunTimeStartProcedure.sql,Success
+23/06/2023 11:57:00.972335,mssql_source/stored_procedures/spSetCustomerAttributeStoreDynamicBannerData.sql,"ERROR:  syntax error at or near ""ELSE""
+LINE 30:     ELSE
+             ^
+"
