@@ -1,0 +1,51 @@
+timestamp,file_status,status
+26/06/2023 08:23:46.493767,mssql_source/functions/fnEmailListUsesFeature.sql,Success
+26/06/2023 08:23:51.318465,mssql_source/functions/fnGetCustomerAttributeBannerContentBlockIdentifier.sql,Success
+26/06/2023 08:23:57.418870,mssql_source/functions/fnGetMailingLibraComponents.sql,Success
+26/06/2023 08:24:00.224671,mssql_source/functions/fnGetTargetLibraComponents.sql,"ERROR:  cannot change name of input parameter ""emaillistid""
+HINT:  Use DROP FUNCTION fngettargetlibracomponents(integer,integer) first.
+"
+26/06/2023 08:24:02.895552,mssql_source/functions/fnIsTestActive.sql,Success
+26/06/2023 08:24:04.686585,mssql_source/functions/fnLogToGraphite.sql,"ERROR:  syntax error at or near "".""
+LINE 6:     RETURN call graphite.graphite.logtographite(data, host, ...
+                                ^
+"
+26/06/2023 08:24:06.501225,mssql_source/functions/fnWeighSeedAndSalt.sql,Success
+26/06/2023 08:24:07.698751,mssql_source/python_backend/call_fnemainusers.py,"ERROR:  syntax error at or near ""def""
+LINE 2: def call_email():
+        ^
+"
+26/06/2023 08:24:09.175682,mssql_source/python_backend/list_of_procedures.py,"ERROR:  syntax error at or near ""def""
+LINE 2: def get_all_procs():
+        ^
+"
+26/06/2023 08:24:10.432892,mssql_source/python_backend/login.py,"ERROR:  syntax error at or near ""def""
+LINE 2: def login():
+        ^
+"
+26/06/2023 08:24:11.781806,mssql_source/python_backend/procedure_call.py,"ERROR:  syntax error at or near ""def""
+LINE 2: def execute_fnistestactive():
+        ^
+"
+26/06/2023 08:24:14.382461,mssql_source/stored_procedures/spCancelCleanup.sql,"ERROR:  syntax error at or near ""SET""
+LINE 14:                         SET 
+                                 ^
+CONTEXT:  invalid type name ""tblregistrycleanup
+                        SET 
+                            statuscode ""
+"
+26/06/2023 08:24:16.603477,mssql_source/stored_procedures/spCreateExternalUniqueID.sql,Success
+26/06/2023 08:24:19.274184,mssql_source/stored_procedures/spLockAsyncListBuild.sql,"ERROR:  syntax error at or near ""TRANSACTION""
+LINE 9:             BEGIN TRANSACTION;
+                          ^
+"
+26/06/2023 08:24:24.030530,mssql_source/stored_procedures/spLogError.sql,Success
+26/06/2023 08:24:26.030759,mssql_source/stored_procedures/spLogRunTimeFinishProcedure.sql,"ERROR:  ""_procedurename"" is not a known variable
+LINE 10:                         INTO _procedurename 
+                                      ^
+"
+26/06/2023 08:24:29.372263,mssql_source/stored_procedures/spLogRunTimeStartProcedure.sql,Success
+26/06/2023 08:24:35.849154,mssql_source/stored_procedures/spSetCustomerAttributeStoreDynamicBannerData.sql,"ERROR:  ""_contentblockidentifier"" is not a known variable
+LINE 78:                 INTO _contentblockidentifier;
+                              ^
+"
