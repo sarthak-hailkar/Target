@@ -1,0 +1,71 @@
+timestamp,file_status,status
+04/07/2023 05:35:44.921455,mssql_source/functions/fnEmailListUsesFeature.sql,"ERROR:  function ""fn_email_list_uses_feature"" already exists with same argument types
+"
+04/07/2023 05:35:49.856131,mssql_source/functions/fnGetCustomerAttributeBannerContentBlockIdentifier.sql,"ERROR:  syntax error at or near ""AS""
+LINE 8: AS 
+        ^
+"
+04/07/2023 05:35:56.128424,mssql_source/functions/fnGetMailingLibraComponents.sql,"ERROR:  syntax error at or near ""AS""
+LINE 6: AS
+        ^
+"
+04/07/2023 05:35:58.095174,mssql_source/functions/fnGetTargetLibraComponents.sql,"ERROR:  syntax error at or near ""AS""
+LINE 4: RETURNS TABLE AS
+                      ^
+"
+04/07/2023 05:36:00.337321,mssql_source/functions/fnIsTestActive.sql,"ERROR:  syntax error at or near ""AS""
+LINE 4: ) RETURNS TABLE AS
+                        ^
+"
+04/07/2023 05:36:01.748894,mssql_source/functions/fnLogToGraphite.sql,"ERROR:  syntax error at or near ""OFF""
+LINE 2:     ANSI_NULLS OFF;
+                       ^
+"
+04/07/2023 05:36:03.243669,mssql_source/functions/fnWeighSeedAndSalt.sql,"ERROR:  syntax error at or near ""AS""
+LINE 4: ) RETURNS TABLE AS
+                        ^
+"
+04/07/2023 05:36:04.208990,mssql_source/python_backend/call_fnemainusers.py,"ERROR:  syntax error at or near ""python""
+LINE 1: python
+        ^
+"
+04/07/2023 05:36:05.143657,mssql_source/python_backend/list_of_procedures.py,"ERROR:  syntax error at or near ""def""
+LINE 2: def get_all_procs():
+        ^
+"
+04/07/2023 05:36:05.732014,mssql_source/python_backend/login.py,"ERROR:  syntax error at or near ""def""
+LINE 1: def login():
+        ^
+"
+04/07/2023 05:36:06.530291,mssql_source/python_backend/procedure_call.py,"ERROR:  syntax error at or near ""def""
+LINE 1: def execute_fnIsTestActive():
+        ^
+"
+04/07/2023 05:36:08.308099,mssql_source/stored_procedures/spCancelCleanup.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 6: BEGIN
+        ^
+"
+04/07/2023 05:36:10.094194,mssql_source/stored_procedures/spCreateExternalUniqueID.sql,"ERROR:  syntax error at or near ""OUTPUT""
+LINE 3:   _OutputUniqueID UNIQUEIDENTIFIER OUTPUT)
+                                           ^
+"
+04/07/2023 05:36:13.424503,mssql_source/stored_procedures/spLockAsyncListBuild.sql,"ERROR:  syntax error at or near ""OUTPUT""
+LINE 5:   _lock_id INT = -1 OUTPUT
+                            ^
+"
+04/07/2023 05:36:17.258298,mssql_source/stored_procedures/spLogError.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: ALTER PROCEDURE [dbo].[spLogError] _EmailListID INT = NULL,
+                        ^
+"
+04/07/2023 05:36:19.356845,mssql_source/stored_procedures/spLogRunTimeFinishProcedure.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: CREATE PROCEDURE [dbo].[spLogRunTimeFinishProcedure] (
+                         ^
+"
+04/07/2023 05:36:21.343738,mssql_source/stored_procedures/spLogRunTimeStartProcedure.sql,"ERROR:  syntax error at or near ""OUTPUT""
+LINE 6:     _LogID INT OUTPUT)
+                       ^
+"
+04/07/2023 05:36:26.906469,mssql_source/stored_procedures/spSetCustomerAttributeStoreDynamicBannerData.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 13: BEGIN
+         ^
+"
