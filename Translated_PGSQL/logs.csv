@@ -1,0 +1,51 @@
+timestamp,file_status,status
+20/07/2023 14:17:10.921592,mssql_source/functions/fnEmailListUsesFeature.sql,Success
+20/07/2023 14:17:16.492256,mssql_source/functions/fnGetCustomerAttributeBannerContentBlockIdentifier.sql,"ERROR:  cannot change name of input parameter ""storeid""
+HINT:  Use DROP FUNCTION fngetcustomerattributebannercontentblockidentifier(integer,integer,integer,integer) first.
+"
+20/07/2023 14:17:22.850972,mssql_source/functions/fnGetMailingLibraComponents.sql,"ERROR:  cannot change name of input parameter ""emaillistid""
+HINT:  Use DROP FUNCTION fngetmailinglibracomponents(integer,integer) first.
+"
+20/07/2023 14:17:25.377284,mssql_source/functions/fnGetTargetLibraComponents.sql,"ERROR:  cannot change name of input parameter ""emaillistid""
+HINT:  Use DROP FUNCTION fngettargetlibracomponents(integer,integer) first.
+"
+20/07/2023 14:17:27.804499,mssql_source/functions/fnIsTestActive.sql,Success
+20/07/2023 14:17:29.724190,mssql_source/functions/fnLogToGraphite.sql,"ERROR:  cannot change name of input parameter ""_data""
+HINT:  Use DROP FUNCTION fnlogtographite(text,text,integer) first.
+"
+20/07/2023 14:17:31.711653,mssql_source/functions/fnWeighSeedAndSalt.sql,Success
+20/07/2023 14:17:33.028181,mssql_source/python_backend/call_fnemainusers.py,"ERROR:  syntax error at or near ""def""
+LINE 2: def call_email():
+        ^
+"
+20/07/2023 14:17:34.525142,mssql_source/python_backend/list_of_procedures.py,"ERROR:  syntax error at or near ""python""
+LINE 1: python
+        ^
+"
+20/07/2023 14:17:35.933980,mssql_source/python_backend/login.py,Success
+20/07/2023 14:17:37.309658,mssql_source/python_backend/procedure_call.py,"ERROR:  syntax error at or near ""def""
+LINE 2: def execute_fnistestactive():
+        ^
+"
+20/07/2023 14:17:39.948790,mssql_source/stored_procedures/spCancelCleanup.sql,"ERROR:  syntax error at or near ""SET""
+LINE 15:         SET
+                 ^
+CONTEXT:  invalid type name ""tblregistrycleanup
+        SET
+            statuscode ""
+"
+20/07/2023 14:17:42.199807,mssql_source/stored_procedures/spCreateExternalUniqueID.sql,Success
+20/07/2023 14:17:45.015010,mssql_source/stored_procedures/spLockAsyncListBuild.sql,"ERROR:  syntax error at or near "";""
+LINE 9:                         BEGIN;
+                                     ^
+"
+20/07/2023 14:17:49.425913,mssql_source/stored_procedures/spLogError.sql,Success
+20/07/2023 14:17:51.494740,mssql_source/stored_procedures/spLogRunTimeFinishProcedure.sql,"ERROR:  ""_procedurename"" is not a known variable
+LINE 10:         INTO _procedurename 
+                      ^
+"
+20/07/2023 14:17:54.841687,mssql_source/stored_procedures/spLogRunTimeStartProcedure.sql,Success
+20/07/2023 14:18:01.317640,mssql_source/stored_procedures/spSetCustomerAttributeStoreDynamicBannerData.sql,"ERROR:  ""_contentblockidentifier"" is not a known variable
+LINE 78:                 INTO _contentblockidentifier;
+                              ^
+"
