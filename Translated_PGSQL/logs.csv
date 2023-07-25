@@ -1,0 +1,38 @@
+timestamp,file_status,status
+25/07/2023 07:56:05.835519,mssql_source/functions/fnEmailListUsesFeature.sql,Success
+25/07/2023 07:56:11.347670,mssql_source/functions/fnGetCustomerAttributeBannerContentBlockIdentifier.sql,"ERROR:  cannot change name of input parameter ""storeid""
+HINT:  Use DROP FUNCTION fngetcustomerattributebannercontentblockidentifier(integer,integer,integer,integer) first.
+"
+25/07/2023 07:56:17.590022,mssql_source/functions/fnGetMailingLibraComponents.sql,"ERROR:  cannot change name of input parameter ""emaillistid""
+HINT:  Use DROP FUNCTION fngetmailinglibracomponents(integer,integer) first.
+"
+25/07/2023 07:56:20.126314,mssql_source/functions/fnGetTargetLibraComponents.sql,"ERROR:  cannot change name of input parameter ""emaillistid""
+HINT:  Use DROP FUNCTION fngettargetlibracomponents(integer,integer) first.
+"
+25/07/2023 07:56:22.540812,mssql_source/functions/fnIsTestActive.sql,Success
+25/07/2023 07:56:24.326538,mssql_source/functions/fnLogToGraphite.sql,"ERROR:  cannot change name of input parameter ""_data""
+HINT:  Use DROP FUNCTION fnlogtographite(text,text,integer) first.
+"
+25/07/2023 07:56:26.152995,mssql_source/functions/fnWeighSeedAndSalt.sql,Success
+25/07/2023 07:56:28.743019,mssql_source/stored_procedures/spCancelCleanup.sql,"ERROR:  syntax error at or near ""SET""
+LINE 15:         SET
+                 ^
+CONTEXT:  invalid type name ""tblregistrycleanup
+        SET
+            statuscode ""
+"
+25/07/2023 07:56:30.997468,mssql_source/stored_procedures/spCreateExternalUniqueID.sql,Success
+25/07/2023 07:56:33.795744,mssql_source/stored_procedures/spLockAsyncListBuild.sql,"ERROR:  syntax error at or near "";""
+LINE 9:                         BEGIN;
+                                     ^
+"
+25/07/2023 07:56:38.218624,mssql_source/stored_procedures/spLogError.sql,Success
+25/07/2023 07:56:40.191097,mssql_source/stored_procedures/spLogRunTimeFinishProcedure.sql,"ERROR:  ""_procedurename"" is not a known variable
+LINE 10:         INTO _procedurename 
+                      ^
+"
+25/07/2023 07:56:43.490329,mssql_source/stored_procedures/spLogRunTimeStartProcedure.sql,Success
+25/07/2023 07:56:49.886776,mssql_source/stored_procedures/spSetCustomerAttributeStoreDynamicBannerData.sql,"ERROR:  ""_contentblockidentifier"" is not a known variable
+LINE 78:                 INTO _contentblockidentifier;
+                              ^
+"
