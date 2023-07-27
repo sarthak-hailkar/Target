@@ -1,0 +1,31 @@
+timestamp,file_status,status
+27/07/2023 06:30:58.633990,source/CALL_PROCEDURE_get_employee_details.sql,"ERROR:  syntax error at or near ""integer""
+LINE 2:     v_employee_id integer := 1;
+                          ^
+"
+27/07/2023 06:31:00.650388,source/CREATE_OR_REPLACE_PROCEDURE_get_employee_details.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 8: BEGIN
+        ^
+"
+27/07/2023 06:31:02.882474,source/CREATE_OR_REPLACE_TRIGGER_tr_Employee_Details.sql,"ERROR:  relation ""employee_details"" does not exist
+"
+27/07/2023 06:31:06.028736,source/CREATE_OR_REPLACE_trigger_tr_Employee_Details_Changes.sql,"ERROR:  syntax error at or near ""ENABLE""
+LINE 24: ENABLE;
+         ^
+"
+27/07/2023 06:31:08.495454,source/CREATE_SEQUENCE_demo_sequence1.sql,"ERROR:  syntax error at or near ""ORDER""
+LINE 8: ORDER;
+        ^
+"
+27/07/2023 06:31:10.077503,source/CREATE_SEQUENCE_demo_sequence2.sql,"ERROR:  syntax error at or near ""CACHE""
+LINE 7: NO CACHE
+           ^
+"
+27/07/2023 06:31:11.531382,source/CREATE_TABLE_Employee_Details.sql,"ERROR:  relation ""Employee_Details"" already exists
+"
+27/07/2023 06:31:13.001669,source/CREATE_TABLE_Employee_Details_Changes.sql,"ERROR:  relation ""Employee_Details_Changes"" already exists
+"
+27/07/2023 06:31:14.328498,source/DELETE_FROM_Employee_Details.sql,Success
+27/07/2023 06:31:17.801911,source/INSERT_INTO_Employee_Details.sql,Success
+27/07/2023 06:31:19.245608,source/UPDATE_Employee_Details.sql,Success
+27/07/2023 06:31:22.347674,source/new_INSERT_INTO_Employee_Details.sql,Success
