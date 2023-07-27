@@ -1,0 +1,54 @@
+timestamp,file_status,status
+27/07/2023 10:08:20.998482,source/functions/fnEmailListUsesFeature.sql,Success
+27/07/2023 10:08:27.007017,source/functions/fnGetCustomerAttributeBannerContentBlockIdentifier.sql,"ERROR:  syntax error at or near ""AS""
+LINE 8: AS
+        ^
+"
+27/07/2023 10:08:34.375570,source/functions/fnGetMailingLibraComponents.sql,"ERROR:  syntax error at or near ""AS""
+LINE 4: ) RETURNS TABLE AS
+                        ^
+"
+27/07/2023 10:08:36.935253,source/functions/fnGetTargetLibraComponents.sql,"ERROR:  syntax error at or near ""AS""
+LINE 5: RETURNS TABLE AS
+                      ^
+"
+27/07/2023 10:08:39.576605,source/functions/fnIsTestActive.sql,"ERROR:  syntax error at or near ""AS""
+LINE 5: RETURNS TABLE AS
+                      ^
+"
+27/07/2023 10:08:41.781484,source/functions/fnLogToGraphite.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: CREATE FUNCTION [dbo].[fnLogToGraphite](
+                        ^
+"
+27/07/2023 10:08:44.106510,source/functions/fnWeighSeedAndSalt.sql,"ERROR:  syntax error at or near ""AS""
+LINE 4: ) RETURNS TABLE AS
+                        ^
+"
+27/07/2023 10:08:47.058996,source/stored_procedures/spCancelCleanup.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 6: BEGIN
+        ^
+"
+27/07/2023 10:08:49.635034,source/stored_procedures/spCreateExternalUniqueID.sql,"ERROR:  syntax error at or near ""OUT""
+LINE 3:     _output_unique_id uuid OUT)
+                                   ^
+"
+27/07/2023 10:08:52.740565,source/stored_procedures/spLockAsyncListBuild.sql,"ERROR:  syntax error at or near ""OUT""
+LINE 5:     _lock_id integer DEFAULT -1::integer OUT)
+                                                 ^
+"
+27/07/2023 10:08:57.088702,source/stored_procedures/spLogError.sql,"ERROR:  syntax error at or near ""[""
+LINE 1: ALTER PROCEDURE [dbo].[spLogError] _EmailListID INT = NULL,
+                        ^
+"
+27/07/2023 10:08:59.921254,source/stored_procedures/spLogRunTimeFinishProcedure.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 5: BEGIN
+        ^
+"
+27/07/2023 10:09:03.433344,source/stored_procedures/spLogRunTimeStartProcedure.sql,"ERROR:  syntax error at or near ""OUT""
+LINE 6:     _log_id integer OUT)
+                            ^
+"
+27/07/2023 10:09:09.852680,source/stored_procedures/spSetCustomerAttributeStoreDynamicBannerData.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 13: BEGIN
+         ^
+"
