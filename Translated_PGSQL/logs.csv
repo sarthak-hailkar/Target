@@ -1,0 +1,47 @@
+timestamp,file_status,status
+28/07/2023 02:31:07.548846,source/functions/fnEmailListUsesFeature.sql,Success
+28/07/2023 02:31:12.411057,source/functions/fnGetCustomerAttributeBannerContentBlockIdentifier.sql,"ERROR:  syntax error at end of input
+LINE 46: $function$
+         ^
+"
+28/07/2023 02:31:19.042021,source/functions/fnGetMailingLibraComponents.sql,"ERROR:  cannot change name of input parameter ""emaillistid""
+HINT:  Use DROP FUNCTION fngetmailinglibracomponents(integer,integer) first.
+"
+28/07/2023 02:31:21.535001,source/functions/fnGetTargetLibraComponents.sql,"ERROR:  cannot change name of input parameter ""emaillistid""
+HINT:  Use DROP FUNCTION fngettargetlibracomponents(integer,integer) first.
+"
+28/07/2023 02:31:24.112492,source/functions/fnIsTestActive.sql,"ERROR:  syntax error at or near ""WITH""
+LINE 5:     WITH date_cte(inputdate) AS (
+            ^
+"
+28/07/2023 02:31:25.963077,source/functions/fnLogToGraphite.sql,"ERROR:  cannot change name of input parameter ""_data""
+HINT:  Use DROP FUNCTION fnlogtographite(text,text,integer) first.
+"
+28/07/2023 02:31:27.779459,source/functions/fnWeighSeedAndSalt.sql,Success
+28/07/2023 02:31:30.520425,source/stored_procedures/spCancelCleanup.sql,"ERROR:  cannot change name of input parameter ""_emaillistid""
+HINT:  Use DROP PROCEDURE spcancelcleanup(integer,integer,uuid) first.
+"
+28/07/2023 02:31:32.717106,source/stored_procedures/spCreateExternalUniqueID.sql,Success
+28/07/2023 02:31:35.409075,source/stored_procedures/spLockAsyncListBuild.sql,"ERROR:  syntax error at or near "";""
+LINE 13:             BEGIN;
+                          ^
+"
+28/07/2023 02:31:39.729253,source/stored_procedures/spLogError.sql,"ERROR:  syntax error at or near ""_procedureid""
+LINE 9:             TOP (1) _procedureid
+                            ^
+CONTEXT:  invalid type name ""TOP (1) _procedureid
+        INTO _procedureid
+        FROM
+            public.tblplprocedures
+        WHERE
+            name ""
+"
+28/07/2023 02:31:41.735941,source/stored_procedures/spLogRunTimeFinishProcedure.sql,"ERROR:  ""_procedurename"" is not a known variable
+LINE 11:         INTO _procedurename 
+                      ^
+"
+28/07/2023 02:31:45.055402,source/stored_procedures/spLogRunTimeStartProcedure.sql,Success
+28/07/2023 02:31:50.487594,source/stored_procedures/spSetCustomerAttributeStoreDynamicBannerData.sql,"ERROR:  syntax error at or near ""ELSE""
+LINE 29:     ELSE
+             ^
+"
