@@ -1,0 +1,24 @@
+CREATE SEQUENCE demo_sequence1
+INCREMENT BY -1
+START WITH 100
+MAXVALUE 100
+MINVALUE 95
+CYCLE
+CACHE 2
+ORDER;
+
+-- SEQUENCE queries conversion rules
+
+-- 1. NOCACHE, ORDER and NOORDER keywords are not supported in PostgreSQL
+
+-- 2. NOMAXVALUE, NOMINVALUE and NOCYCLE keywords are replaced with NO MAXVALUE, NO MINVALUE and NO CYCLE keywords
+
+CREATE SEQUENCE demo_sequence1
+INCREMENT BY -1
+START WITH 100
+MAXVALUE 100
+MINVALUE 95
+CYCLE
+-- NOCACHE
+-- ORDER
+-- NOORDER;
