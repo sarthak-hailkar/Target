@@ -1,0 +1,9 @@
+timestamp,file_status,status
+31/07/2023 06:24:39.297831,source/new_tera.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `DimAccount` (
+                     ^
+"
+31/07/2023 06:24:40.923426,source/teradata_sample.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `HR.Employees` (
+                     ^
+"
