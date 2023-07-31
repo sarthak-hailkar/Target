@@ -1,0 +1,5 @@
+timestamp,file_status,status
+31/07/2023 01:06:25.453004,source/teradata_sample.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `HR.Employees` (
+                     ^
+"
