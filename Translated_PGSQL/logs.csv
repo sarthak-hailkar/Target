@@ -1,0 +1,31 @@
+timestamp,file_status,status
+01/08/2023 06:01:13.794532,source/01_CREATE_TABLE_Employee_Details.sql,Success
+01/08/2023 06:01:15.233456,source/02_CREATE_TABLE_Employee_Details_Changes_to_store_changes.sql,Success
+01/08/2023 06:01:18.563490,source/03_INSERT_initial_data_INTO_Employee_Details.sql,Success
+01/08/2023 06:01:21.311596,source/04_CREATE_OR_REPLACE_trigger_tr_Employee_Details_Changes_to_store_changes.sql,"ERROR:  syntax error at or near ""ENABLE""
+LINE 4:     ENABLE
+            ^
+"
+01/08/2023 06:01:23.293066,source/05_CREATE_OR_REPLACE_TRIGGER_tr_Employee_Details_to_show_changes.sql,"ERROR:  syntax error at or near ""ENABLE""
+LINE 4:     ENABLE
+            ^
+"
+01/08/2023 06:01:26.089180,source/06_INSERT_INTO_Employee_Details_new_data.sql,Success
+01/08/2023 06:01:27.274513,source/07_DELETE_FROM_Employee_Details.sql,Success
+01/08/2023 06:01:28.628244,source/08_UPDATE_Employee_Details.sql,Success
+01/08/2023 06:01:30.309314,source/09_CREATE_OR_REPLACE_PROCEDURE_get_employee_details_to_get_emp_details.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 8: BEGIN
+        ^
+"
+01/08/2023 06:01:32.226378,source/10_CALL_PROCEDURE_get_employee_details_to_display_emp_details.sql,"ERROR:  syntax error at or near ""integer""
+LINE 2:     v_employee_id integer := 1;
+                          ^
+"
+01/08/2023 06:01:33.623419,source/11_CREATE_SEQUENCE_demo_sequence1.sql,"ERROR:  syntax error at or near ""ORDER""
+LINE 8: ORDER;
+        ^
+"
+01/08/2023 06:01:34.851920,source/12_CREATE_SEQUENCE_demo_sequence2.sql,"ERROR:  syntax error at or near ""NOMAXVALUE""
+LINE 4: NOMAXVALUE
+        ^
+"
