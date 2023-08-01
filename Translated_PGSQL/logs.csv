@@ -1,0 +1,46 @@
+timestamp,file_status,status
+01/08/2023 05:32:36.099683,source/DDL_example_1.sql,"ERROR:  schema ""cdmdatabaseschema"" does not exist
+LINE 1: CREATE TABLE cdmdatabaseschema.cohort (
+                     ^
+"
+01/08/2023 05:32:38.415745,source/ddl_converted_with_more_prompts.sql,"ERROR:  type ""nvarchar"" does not exist
+LINE 12:   nvarchar_column NVARCHAR(50),
+                           ^
+"
+01/08/2023 05:32:39.822529,source/default_data.sql,"ERROR:  relation ""your_table_name"" already exists
+"
+01/08/2023 05:32:44.099806,source/default_data_complex_proc.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 15: BEGIN
+         ^
+"
+01/08/2023 05:32:46.483184,source/example_query.sql,"ERROR:  schema ""cdmdatabaseschema"" does not exist
+LINE 1: CREATE TABLE cdmdatabaseschema.visit_occurrence (
+                     ^
+"
+01/08/2023 05:32:48.003434,source/foreign_key_reference.sql,"ERROR:  relation ""orders"" does not exist
+"
+01/08/2023 05:32:50.891682,source/foreign_key_reference_complex.sql,"ERROR:  there is no unique constraint matching given keys for referenced table ""orders""
+"
+01/08/2023 05:32:52.882457,source/function_2.sql,Success
+01/08/2023 05:32:54.876691,source/function_example.sql,Success
+01/08/2023 05:32:56.242863,source/index.sql,"ERROR:  type ""int64"" does not exist
+LINE 3:     b int64,
+              ^
+"
+01/08/2023 05:32:57.896646,source/procedure_example_complex.sql,"ERROR:  syntax error at or near ""text""
+LINE 2:                      RETURNS  text
+                                      ^
+"
+01/08/2023 05:33:02.048375,source/procedure_example_various_functions.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 15: BEGIN
+         ^
+"
+01/08/2023 05:33:04.757702,source/sequence_containing_proc.sql,Success
+01/08/2023 05:33:06.885010,source/view_complex_example.sql,"ERROR:  relation ""orders"" does not exist
+LINE 18: orders o
+         ^
+"
+01/08/2023 05:33:08.283418,source/view_example.sql,"ERROR:  relation ""sales_data"" does not exist
+LINE 3: FROM sales_data
+             ^
+"
