@@ -1,0 +1,19 @@
+timestamp,file_status,status
+01/08/2023 06:11:26.199707,source/Procedures.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 6: BEGIN
+        ^
+"
+01/08/2023 06:11:28.759262,source/insertdata.sql,"ERROR:  column ""id"" of relation ""employee"" does not exist
+LINE 1: INSERT INTO employee (id, emp_name, salary, hire_date)
+                              ^
+"
+01/08/2023 06:11:30.144552,source/sequence.sql,"ERROR:  relation ""geeks_num"" already exists
+"
+01/08/2023 06:11:31.820515,source/triggerdemo.sql,"ERROR:  syntax error at or near ""ON""
+LINE 2: ON DATABASE
+        ^
+"
+01/08/2023 06:11:33.885812,source/views.sql,"ERROR:  ""_procedurename"" is not a known variable
+LINE 10:                         INTO _procedurename 
+                                      ^
+"
