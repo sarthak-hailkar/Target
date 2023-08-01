@@ -1,0 +1,5 @@
+timestamp,file_status,status
+01/08/2023 05:52:14.891433,source/views.sql,"ERROR:  ""_procedurename"" is not a known variable
+LINE 10:                         INTO _procedurename 
+                                      ^
+"
