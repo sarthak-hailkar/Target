@@ -1,0 +1,15 @@
+timestamp,file_status,status
+01/08/2023 06:08:51.177387,source/Procedures.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 6: BEGIN
+        ^
+"
+01/08/2023 06:08:52.553000,source/sequence.sql,"ERROR:  relation ""geeks_num"" already exists
+"
+01/08/2023 06:08:54.226101,source/triggerdemo.sql,"ERROR:  syntax error at or near ""ON""
+LINE 2: ON DATABASE
+        ^
+"
+01/08/2023 06:08:56.259234,source/views.sql,"ERROR:  ""_procedurename"" is not a known variable
+LINE 10:                         INTO _procedurename 
+                                      ^
+"
