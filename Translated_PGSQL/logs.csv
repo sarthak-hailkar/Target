@@ -1,0 +1,17 @@
+timestamp,file_status,status
+02/08/2023 02:01:20.778052,source/function.sql,"ERROR:  syntax error at or near ""CONTAINS""
+LINE 4:   CONTAINS SQL
+          ^
+"
+02/08/2023 02:01:21.905343,source/macro.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 2: BEGIN
+        ^
+"
+02/08/2023 02:01:24.034689,source/new_tera.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `DimAccount` (
+                     ^
+"
+02/08/2023 02:01:25.691044,source/teradata_sample.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `HR.Employees` (
+                     ^
+"
