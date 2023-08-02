@@ -1,0 +1,17 @@
+timestamp,file_status,status
+02/08/2023 01:50:25.845034,source/function.sql,"ERROR:  syntax error at or near ""(""
+LINE 3:   AS (
+             ^
+"
+02/08/2023 01:50:26.989910,source/macro.sql,"ERROR:  syntax error at or near ""BEGIN""
+LINE 2: BEGIN
+        ^
+"
+02/08/2023 01:50:29.025833,source/new_tera.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `DimAccount` (
+                     ^
+"
+02/08/2023 01:50:30.659339,source/teradata_sample.sql,"ERROR:  syntax error at or near ""`""
+LINE 1: CREATE TABLE `HR.Employees` (
+                     ^
+"
